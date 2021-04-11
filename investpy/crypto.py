@@ -241,7 +241,7 @@ def get_crypto_recent_data(crypto, as_json=False, order='ascending', interval='D
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -485,7 +485,7 @@ def get_crypto_historical_data(crypto, from_date, to_date, as_json=False, order=
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -639,7 +639,7 @@ def get_crypto_information(crypto, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -728,7 +728,7 @@ def get_cryptos_overview(as_json=False, n_results=100):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -788,7 +788,7 @@ def get_cryptos_overview(as_json=False, n_results=100):
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 

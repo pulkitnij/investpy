@@ -284,7 +284,7 @@ def get_certificate_recent_data(certificate, country, as_json=False, order='asce
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -533,7 +533,7 @@ def get_certificate_historical_data(certificate, country, from_date, to_date, as
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -692,7 +692,7 @@ def get_certificate_information(certificate, country, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -826,7 +826,7 @@ def get_certificates_overview(country, as_json=False, n_results=100):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 

@@ -294,7 +294,7 @@ def get_commodity_recent_data(commodity, country=None, as_json=False, order='asc
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -558,7 +558,7 @@ def get_commodity_historical_data(commodity, from_date, to_date, country=None, a
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -738,7 +738,7 @@ def get_commodity_information(commodity, country=None, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -880,7 +880,7 @@ def get_commodities_overview(group, as_json=False, n_results=100):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 

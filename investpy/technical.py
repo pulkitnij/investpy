@@ -159,7 +159,7 @@ def technical_indicators(name, country, product_type, interval='daily'):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -331,7 +331,7 @@ def moving_averages(name, country, product_type, interval='daily'):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -508,7 +508,7 @@ def pivot_points(name, country, product_type, interval='daily'):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 

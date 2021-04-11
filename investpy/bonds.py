@@ -264,7 +264,7 @@ def get_bond_recent_data(bond, as_json=False, order='ascending', interval='Daily
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -502,7 +502,7 @@ def get_bond_historical_data(bond, from_date, to_date, as_json=False, order='asc
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -651,7 +651,7 @@ def get_bond_information(bond, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -808,7 +808,7 @@ def get_bonds_overview(country, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 

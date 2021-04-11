@@ -284,7 +284,7 @@ def get_stock_recent_data(stock, country, as_json=False, order='ascending', inte
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -540,7 +540,7 @@ def get_stock_historical_data(stock, country, from_date, to_date, as_json=False,
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -734,7 +734,7 @@ def get_stock_company_profile(stock, country='spain', language='english'):
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -770,7 +770,7 @@ def get_stock_company_profile(stock, country='spain', language='english'):
             "User-Agent": get_random(),
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
         }
 
@@ -855,7 +855,7 @@ def get_stock_dividends(stock, country):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -917,7 +917,7 @@ def get_stock_dividends(stock, country):
                     "User-Agent": get_random(),
                     "X-Requested-With": "XMLHttpRequest",
                     "Accept": "text/html",
-                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Encoding": "gzip, deflate",
                     "Connection": "keep-alive",
                 }
 
@@ -1065,7 +1065,7 @@ def get_stock_information(stock, country, as_json=False):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
@@ -1204,7 +1204,7 @@ def get_stocks_overview(country, as_json=False, n_results=100):
         "User-Agent": get_random(),
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
     }
 
